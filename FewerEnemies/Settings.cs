@@ -34,50 +34,6 @@ namespace FewerEnemies
             return ChanceNone;
         }
 
-        /*public string GetNameBlacklist()
-        {
-            return NameBlacklist;
-        }*/
-
-        /*[Tooltip("The level to set all NPC & NPC Leveled-list-entries to.")]
-public short Level = 0;
-public short CalcMinLevel = 0;
-public short CalcMaxLevel = 0;
-[Tooltip("When checked, the player's level values are not modified.")]
-public bool SkipPlayer = true;
-*/
-        /// <summary>
-        /// Apply user settings to the given NPC record.
-        /// </summary>
-        /// <param name="npc">The Npc record to modify, should be received as a copy of the actual record.</param>
-        /// <param name="changeCount">Returns the number of modified values.</param>
-        /// <returns>Npc</returns>
-        /* public Npc ApplyTo(Npc npc, out int changes)
-         {
-             changes = 0;
-             // level
-             if (!npc.Configuration.Level.Equals(Level))
-             {
-                 npc.Configuration.Level = new NpcLevel()
-                 {
-                     Level = Level
-                 };
-                 ++changes;
-             }
-             // calc minimum level
-             if (!npc.Configuration.CalcMinLevel.Equals(CalcMinLevel))
-             {
-                 npc.Configuration.CalcMinLevel = CalcMinLevel;
-                 ++changes;
-             }
-             // calc maximum level
-             if (!npc.Configuration.CalcMaxLevel.Equals(CalcMaxLevel))
-             {
-                 npc.Configuration.CalcMaxLevel = CalcMaxLevel;
-                 ++changes;
-             }
-             return npc;
-         }*/
         /// <summary>
         /// Apply user settings to the given Leveled NPC list entry.
         /// </summary>
@@ -94,7 +50,8 @@ public bool SkipPlayer = true;
                 npc.Data.Level = Level;
                 ++changes;
             }*/
-            //don't need this error check for the chancenone
+            //don't need this error check for the chancenone?
+
             npc.ChanceNone = chanceNone;
             ++changes;
             return npc;
@@ -105,16 +62,5 @@ public bool SkipPlayer = true;
         /// <param name="list">A copy of a NPC leveled-list record.</param>
         /// <param name="changes">Returns the number of modified values.</param>
         /// <returns>LeveledNpc</returns>
-      /*  public LeveledNpc ApplyTo(LeveledNpc list, out int changes)
-        {
-            changes = 0;
-            //foreach (var npc in list.Entries!) // null check is located in Program.cs loop
-            foreach (var npc in list) // null check is located in Program.cs loop
-                {
-                ApplyTo(npc.DeepCopy(), out int subchanges, chanceNone: GetChanceNone()).DeepCopyIn(npc);
-                changes += subchanges;
-            }
-            return list;
-        }*/
     }
 }
