@@ -2,7 +2,7 @@
   "Nickname": "FewerEnemies",
   "Visibility": "Visible",
   "OneLineDescription": "WIP: Apply a ChanceNone to leveled NPC lists, reducing the number of enemies encountered.",
-  "LongDescription": "An experimental/WIP patcher to reduce the number of enemies encountered by applying a 'chance none' to many leveled NPC lists. Comes with an extensive blacklist for Simonrim, creation club, and many other mods, but I strongly recommend double-checking the log to avoid breaking quests. See readme.",
+  "LongDescription": "An experimental/WIP patcher to reduce the number of enemies encountered by applying a 'chance none' to many leveled NPC lists. Comes with an extensive blacklist for vanilla content, creation club, Madmen/Lawless, and several others. I strongly recommend double-checking the log to avoid breaking quests. See readme.",
   "PreferredAutoVersioning": "Default",
   "RequiredMods": [],
   "TargetedReleases": [
