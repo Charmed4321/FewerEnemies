@@ -1,0 +1,5 @@
+C:\Modding\Synthesis\Fewer Enemies\Fewer Enemies\FewerEnemies\obj\Debug\net6.0\FewerEnemies.csproj.AssemblyReference.cache
+C:\Modding\Synthesis\Fewer Enemies\Fewer Enemies\FewerEnemies\obj\Debug\net6.0\FewerEnemies.GeneratedMSBuildEditorConfig.editorconfig
+C:\Modding\Synthesis\Fewer Enemies\Fewer Enemies\FewerEnemies\obj\Debug\net6.0\FewerEnemies.AssemblyInfoInputs.cache
+C:\Modding\Synthesis\Fewer Enemies\Fewer Enemies\FewerEnemies\obj\Debug\net6.0\FewerEnemies.AssemblyInfo.cs
+C:\Modding\Synthesis\Fewer Enemies\Fewer Enemies\FewerEnemies\obj\Debug\net6.0\FewerEnemies.csproj.CoreCompileInputs.cache
